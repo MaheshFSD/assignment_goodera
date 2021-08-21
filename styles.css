@@ -1,8 +1,117 @@
+body{
+    /* background-color: #E5E5E5; */
+    background-color: red;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
 .mainContainer{
     height: 1024px;
     width: 1440px;
-    left: -720px;
-    top: -513px;
+    left: 0;
+    top: 0;
     border-radius: 0px;
+    position: relative;
+    background: #EAEAEA;
+    display: flex;
+    flex-direction: column;
+}
+.Hero{
+    position: absolute;
+    width: 1440px;
+    height: 364px;
+    left: 0px;
+    top: 0px;
+    background: linear-gradient(274.83deg, #5DB0DF 0.58%, #5D7ADF 74.3%);
+}
+.Hero_bottom_vericle_columns{
+    width: 1440px;    
+    height: 499px;
+    display: flex;
+}
+.Hero_bottom_vericle_columns_left{
+width: 720px;
+height: 499px;
+/* background-color: red; */
+display: flex;
+flex-direction: column;
+align-items: flex-end;
+}
+.Hero_bottom_vericle_columns_right{
+width: 720px;
+height: 499px;
+/* background-color: blue; */
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.search{
+    position: absolute;
+width: 1154px;
+height: 100px;
+left: 143px;
+top: 314px;
+background-color: whitesmoke;
+border-radius: 20px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.nav{
+    color: white;
+    position: absolute;
+width: 1143px;
+height: 27px;
+left: 143px;
+top: 37px;
+display: flex;
+justify-content: space-between;
 
+}
+.nav_left{
+    display: flex;
+    align-items: center;
+}
+.nav_right{
+    display: flex;
+    align-items: center;
+}
+.nav_item{
+    margin: 15px;
+}
+.font_class{
+    font-size: 13px;
+}
+.typo{
+    position: absolute;
+    width: 511px;
+    height: 72px;
+    left: 143px;
+    top: 142px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 72px;
+    color: white;
+}
+.browse{
+    position: absolute;
+width: 654px;
+height: 30px;
+left: 143px;
+top: 207px;
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 30px;
+color: white;
+}
+.card{
+    position: absolute;
+width: 560px;
+height: 200px;
+left: 143px;
+top: 453px;
 }
